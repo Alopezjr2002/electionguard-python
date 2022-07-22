@@ -7,7 +7,6 @@ from .encrypt_ballots.encrypt_command import EncryptBallotsCommand
 from .mark_ballots.mark_command import MarkBallotsCommand
 from .submit_ballots.submit_command import SubmitBallotsCommand
 
-
 @click.group()
 def cli() -> None:
     pass
